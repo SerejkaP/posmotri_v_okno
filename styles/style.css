@@ -16,6 +16,8 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 .visually-hidden {
@@ -48,7 +50,7 @@ ol {
 }
 
 .content {
-  block-size: inherit;
+  block-size: 800px;
   padding-block: 133px;
   padding-inline: 30px;
   display: flex;
@@ -150,7 +152,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__details {
-  block-size: inherit;
+  block-size: 100%;
   inline-size: 100%;
   overflow: hidden;
   display: flex;
